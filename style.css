@@ -1,0 +1,30 @@
+div{
+    color: green;
+}
+
+p:nth-of-type(odd){
+    color:green;
+}
+
+p:nth-of-type(2){
+    color: red;
+}
+
+p[class^="bl"]{
+    color: blue;
+}
+
+.blue-p > span{
+    color:yellow;
+}
+strong > span{
+    color:pink;
+}
+
+p[data-foo]{
+    color:violet;
+}
+
+p:hover span{
+    color: red;
+}
